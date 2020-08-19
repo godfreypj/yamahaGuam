@@ -6,21 +6,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
-<!-- Menu -->
+<!-- Menu/Navbar  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
 <nav class="navbar navbar-expand-lg navbar-light border border-dark rounded" role="navigation">
-    <!-- Brand Logo/Home Button -->
+<!-- Brand Logo/Home Button -->
     <a href="home.html" class="navbar-brand"><img src="img/logos/blackred-rev.png"></a>
-    <!-- Hamburger button on right side of menu-->
+<!-- Hamburger button on right side of menu when in mobile view-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
     aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Menu items, left side-->
+<!-- Menu items, left side-->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -33,7 +32,7 @@
                 <a href="products.html" class="nav-link text-dark font-weight-bold">All Products</a>
             </li>
         </ul>
-        <!-- Menu items, right side-->
+<!-- Menu item, right side-->
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item active">
                 <a href="home.html" class="nav-link text-muted font-weight-bold">Home</a>
@@ -41,16 +40,15 @@
         </ul>
     </div>
 </nav>
-<!-- Jumbotron Banner -->
-    <!-- One row span with Yamaha image/banner -->
-    <div class="jumbotron">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <img src="img/logos/transblack.jpg" class="img-fluid" alt="Yamaha Banner">
-            </div>
+<!-- Jumbotron Banner image, spans entire body width -->
+<div class="jumbotron">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <img src="img/logos/transblack.jpg" class="img-fluid" alt="Yamaha Banner">
         </div>
     </div>
-<!--Body-->
+</div>
+<!--Body.  3 rows of "About" information. Heading & 2 paragraphs-->
 <div class="container about">
     <div class="row">
         <div class="col-lg-12">
@@ -71,10 +69,11 @@
                 mattis metus ac, maximus ligula. Donec sit amet mattis diam. Praesent ullamcorper orci lacus, 
                 sed tincidunt eros efficitur eget.
             </p>
+            <hr>
         </div>
     </div>
 </div>
-            <!-- Next row, hours on left side, image of map on right-->
+<!-- Next row, hours on left side with a sub row/grid, image of map on right side -->
 <div class="container">
     <div class="container row info">
         <div class="col-lg-6 col-sm-12 text-center">
@@ -110,9 +109,9 @@
         </div>
     </div>
 </div>
-<!-- footer -->
+<!-- Footer 3, columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
 <footer class="page-footer bg-light pt-4 border-top rounded-top">
-        <div class="row text-centers text-md-left">
+        <div class="row text-center text-md-left">
             <div class="col-lg-6 col-sm-12">
                 <img src="img/logos/blackred-rev.png" class="img-fluid footerimg">
                 <hr>
@@ -138,7 +137,7 @@
                 </ul>
             </div>
         </div>
-        <!-- Copyright -->
+<!-- Copyright row, spans entire width of body.  Dev information/links -->
         <div class="row">
             <div class="col-12 text-center">
                 <p>Development  |  <a href="#">Godfrey Global Solutions</a></p>
@@ -147,7 +146,6 @@
                 <p>Design  |  <a href="#">Brian Stenger</a></p>
             </div>      
         </div>
-<!-- Copyright -->
 </footer>
 
 <!-- Jquery/Bootstrap Jquery script tags-->
@@ -161,7 +159,4 @@
   crossorigin="anonymous"></script>
 
 </body>
-
-
-
 </html>
