@@ -11,7 +11,7 @@
 ##### * Inventory will contain a grid of all item categories, each of which will display a slideshow of available products in that category
 
 # Technologies
-#### Built with latest versions of vanilla HTML5/CSS/JavaScript
+#### Built with latest versions of HTML5/CSS/JavaScript
 #### Bootstrap is used for CSS styling, CDN w/ a local file fallback
 
 # Design
