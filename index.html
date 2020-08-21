@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="bg-dark">
+
 <!-- Menu/Navbar  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
-<nav class="navbar navbar-expand-lg navbar-light border border-dark rounded" role="navigation">
+<nav class="navbar navbar-expand-lg navbar-dark darkblackbg  border border-dark rounded" role="navigation">
 <!-- Brand Logo/Home Button -->
-    <a href="home.html" class="navbar-brand"><img src="img/logos/blackred-rev.png"></a>
+    <a href="home.html" class="navbar-brand"><img src="img/logos/blackred-rev.png" class="img-thumbnail img-fluid lightredbg border border-dark border-round"></a>
 <!-- Hamburger button on right side of menu when in mobile view-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -20,36 +21,35 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 <!-- Menu items, left side-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse lightredtext" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a href="featured.html" class="nav-link text-dark font-weight-bold">Guam Showroom</a>
+                <a href="featured.html" class="nav-link font-weight-bold">Guam Showroom</a>
             </li>
             <li class="nav-item active">
-                <a href="scooters.html" class="nav-link text-dark font-weight-bold">Scooter Rentals</a>
+                <a href="scooters.html" class="nav-link font-weight-bold">Scooter Rentals</a>
             </li>
             <li class="nav-item active">
-                <a href="products.html" class="nav-link text-dark font-weight-bold">All Products</a>
+                <a href="products.html" class="nav-link font-weight-bold">All Products</a>
             </li>
         </ul>
 <!-- Menu item, right side-->
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item active">
-                <a href="home.html" class="nav-link text-muted font-weight-bold">Home</a>
+                <a href="home.html" class="nav-link font-weight-bold">Home</a>
             </li>
         </ul>
     </div>
 </nav>
+
 <!-- Jumbotron Banner image, spans entire body width -->
-<div class="jumbotron">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <img src="img/logos/transblack.jpg" class="img-fluid" alt="Yamaha Banner">
-        </div>
+<div class="container">
+    <div class="jumbotron lightredbg align-self-center border border-round">
     </div>
 </div>
+
 <!--Body.  3 rows of "About" information. Heading & 2 paragraphs-->
-<div class="container about">
+<div class="container lightredbg">
     <div class="row">
         <div class="col-lg-12">
             <h1>About RPM Yamaha</h1>
@@ -69,12 +69,12 @@
                 mattis metus ac, maximus ligula. Donec sit amet mattis diam. Praesent ullamcorper orci lacus, 
                 sed tincidunt eros efficitur eget.
             </p>
-            <hr>
+            <hr class="yamahaRedbg">
         </div>
     </div>
 </div>
 <!-- Next row, hours on left side with a sub row/grid, image of map on right side -->
-<div class="container">
+<div class="container lightredbg">
     <div class="container row info">
         <div class="col-lg-6 col-sm-12 text-center">
             <p class="font-weight-bold">Hours of Operation</p>
@@ -109,42 +109,46 @@
         </div>
     </div>
 </div>
+
 <!-- Footer 3, columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
-<footer class="page-footer bg-light pt-4 border-top rounded-top">
+<footer class="page-footer pt-4 border-top rounded-top darkblackbg lightredtext">
         <div class="row text-center text-md-left">
-            <div class="col-lg-6 col-sm-12">
-                <img src="img/logos/blackred-rev.png" class="img-fluid footerimg">
-                <hr>
+            <div class="col-lg-3 col-sm-12 align-self-center">
+                <img src="img/logos/blackred-rev.png" 
+                class="img-fluid img-thumbnail lightredbg border border-dark border-round">
+            </div>
+            <div class="col-lg-3 col-sm-12 align-self-center">
                 <p>999 Marine Corps Dr</p>
                 <p>671-477-1776</p>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <p class="text-uppercase text-center">Links</p>
-                <ul class="list-unstyled font-weight-bold">
+                <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
                     <li><a href="#">Link 4</a></li>
                 </ul>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>Development  |  <a href="#">Godfrey Global Solutions</a></p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <p class="text-uppercase text-center">Links</p>
-                <ul class="list-unstyled font-weight-bold">
+                <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
                     <li><a href="#">Link 4</a></li>
                 </ul>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>Design  |  <a href="#">Brian Stenger</a></p>
+                    </div>
+                </div>
             </div>
-        </div>
-<!-- Copyright row, spans entire width of body.  Dev information/links -->
-        <div class="row">
-            <div class="col-12 text-center">
-                <p>Development  |  <a href="#">Godfrey Global Solutions</a></p>
-            </div>
-            <div class="col-12 text-center">
-                <p>Design  |  <a href="#">Brian Stenger</a></p>
-            </div>      
         </div>
 </footer>
 
@@ -157,6 +161,7 @@
   src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
   integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
   crossorigin="anonymous"></script>
+  <script src="assets/js/lib/app.js"></script>
 
 </body>
 </html>
