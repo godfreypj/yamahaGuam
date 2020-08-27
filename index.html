@@ -2,18 +2,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!-- Meta tags & Canonical link tag -->
+    <link rel="Canonical" href="https://rpmyamahaguam.com" />
+    <meta charset="utf-8">
+    <meta name="keywords" content="yamaha outboard boat scooters motor motorcycle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guam's Yamaha dealership. Browse motorcycles, 
+    outboard motors, scooter rentals and more. Located in Agana, stop by today!"">
+<!-- Title -->
     <title>RPM Yamaha Guam</title>
+<!-- Bootstrap and a local stylesheet for CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body class="bg-dark">
 
-<!-- Menu/Navbar  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
+<!-- Menu/Navbar/Header  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
 <nav class="navbar navbar-expand-lg navbar-dark darkblackbg  border border-dark rounded" role="navigation">
 <!-- Brand Logo/Home Button -->
-    <a href="home.html" class="navbar-brand"><img src="img/logos/blackred-rev.png" class="img-thumbnail img-fluid lightredbg border border-dark border-round"></a>
+    <a href="home.html" class="navbar-brand">
+        <img src="img/logos/blackred-rev.png" 
+        class="img-thumbnail img-fluid lightredbg border border-dark border-round"
+        alt="Yamaha logo image">
+    </a>
 <!-- Hamburger button on right side of menu when in mobile view-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" 
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -36,16 +51,15 @@
 <!-- Menu item, right side-->
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item active">
-                <a href="home.html" class="nav-link font-weight-bold">Home</a>
+                <a href="home.html" class="nav-link font-weight-bold" tabindex="1">Home</a>
             </li>
         </ul>
     </div>
 </nav>
 
-<!-- Jumbotron Banner image, spans entire body width -->
+<!-- Jumbotron Banner image -->
 <div class="container">
     <div class="jumbotron lightredbg align-self-center border border-round">
-    </div>
 </div>
 
 <!--Body.  3 rows of "About" information. Heading & 2 paragraphs-->
@@ -105,20 +119,23 @@
             </div>
         </div>
         <div class="col-lg-6 col-sm-12 my-auto">
-                <img src="img/thumbnails/map.png" class="img-fluid img-thumbnail" alt="Image of map to location">
+                <img src="img/thumbnails/map.png" class="img-fluid img-thumbnail" 
+                alt="Map to dealership">
         </div>
     </div>
 </div>
 
-<!-- Footer 3, columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
+<!-- Footer - 3 columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
 <footer class="page-footer pt-4 border-top rounded-top darkblackbg lightredtext">
         <div class="row text-center text-md-left">
             <div class="col-lg-3 col-sm-12 align-self-center">
                 <img src="img/logos/blackred-rev.png" 
-                class="img-fluid img-thumbnail lightredbg border border-dark border-round">
+                class="img-fluid img-thumbnail lightredbg border border-dark border-round"
+                alt="Yamaha logo">
             </div>
             <div class="col-lg-3 col-sm-12 align-self-center">
                 <p>999 Marine Corps Dr</p>
+                <p>Address 12345</p>
                 <p>671-477-1776</p>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -152,7 +169,7 @@
         </div>
 </footer>
 
-<!-- Jquery/Bootstrap Jquery script tags-->
+<!-- Jquery/Bootstrap Jquery script tags.  Local JS functionality -->
 <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
