@@ -2,30 +2,49 @@
     color: #F30611;
 }
 
-.yamahaRedbg {
-    background-color: #F30611;
-}
-
 .darkblackbg {
+
+    /* Dark choice */
     background-color: #1E0102;
+
+    /* Light choice */
+    /* background-color: #FFFFFF; */
 }
 
-.darkredbg {
-    background-color: #570206;
+.darkgreybg {
+
+    /* Dark choice */
+    background-color: #343434;
+
+    /* Light choice */
+    /* background-color: #F8F4FF; */
 }
 
-.lightredtext{
+.lightredtext {
+
+    /* Dark choice */
+    /* color: #180001; */
+
+    /* Light choice */
     color: #FDE0E1;
+    
 }
 
 .lightredbg {
+
+    /* Light choice */
     background-color: #E3DFDF;
+
+    /* Light choice */
+    /* background-color: #FFFFFF; */
 }
 
 .jumbotron {
     background: url(../../img/banners/tempban2.png) center no-repeat;
     background-size: cover;
     height: 295px;
+    margin-bottom: 20px;
+    margin-top: 10px;
    }
 
 footer {
@@ -35,6 +54,9 @@ footer {
     margin-top: 100px;
 }
 
-.visborder {
-    border: 5px solid pink;
+nav a:hover {
+    text-shadow: .5px .5px 5px #F30611;
+
+    color: #FDE0E1;
+    /* color: #180001; */
 }
