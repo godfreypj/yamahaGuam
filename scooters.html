@@ -17,3 +17,149 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
+<!-- Body -->
+
+<body class="darkgreybg">
+
+    <!-- Menu/Navbar/Header  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
+    <nav class="navbar navbar-expand-lg darkblackbg border border-dark rounded" 
+    role="navigation">
+    <!-- Brand Logo/Home Button -->
+        <a href="home.html" class="navbar-brand">
+            <img src="img/logos/blackred-rev.png" 
+            class="img-thumbnail img-fluid lightredbg border border-dark border-round"
+            alt="Yamaha logo image">
+        </a>
+    <!-- Hamburger button on right side of menu when in mobile view-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <!-- Menu items, left side-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="featured.html" class="nav-link font-weight-bold lightredtext">Guam Showroom</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="scooters.html" class="nav-link font-weight-bold lightredtext">Scooter Rentals</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="products.html" class="nav-link font-weight-bold lightredtext">All Products</a>
+                </li>
+            </ul>
+    <!-- Menu item, right side-->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active">
+                    <a href="home.html" class="nav-link font-weight-bold lightredtext" tabindex="1">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Jumbotron Banner image -->
+    <div class="container">
+        <div class="jumbotron jumbotronScooter align-self-center" ></div>
+    </div>
+
+<!-- Grid of scooter images, whats available/action images -->
+    <div class="container lightredbg border-top border-light rounded-top">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter5.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter1.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter2.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter3.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter2.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <img src="scooterimg/scooter5.png" class="img-fluid scooterImage" alt="Scooter preview">
+            </div>
+        </div>
+    </div>
+
+<!-- Container info for scooter rentals-->
+    <div class="container lightredbg border-bottom rounded-bottom">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Additional Scooter Rental Info</h1>
+            </div>
+        </div>
+        <div class="row info">
+            <div class="col-lg-12">
+                <p> Additional Scooter Rental Info.  Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    elit. Duis in sapien sagittis, mattis metus ac, maximus ligula.
+                </p>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer - 3 columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
+<footer class="page-footer pt-4 darkblackbg lightredtext border-top rounded-top">
+    <div class="row text-center text-md-left">
+        <div class="col-lg-3 col-sm-12 align-self-center">
+            <img src="img/logos/blackred-rev.png" 
+            class="img-fluid img-thumbnail lightredbg border border-dark border-round"
+            alt="Yamaha logo">
+        </div>
+        <div class="col-lg-3 col-sm-12 align-self-center">
+            <p>999 Marine Corps Dr</p>
+            <p>Address 12345</p>
+            <p>671-477-1776</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <p class="text-uppercase text-center">Links</p>
+            <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>Development  |  <a href="#">Godfrey Global Solutions</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <p class="text-uppercase text-center">Links</p>
+            <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>Design  |  <a href="#">Brian Stenger</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Jquery/Bootstrap Jquery script tags.  Local JS functionality -->
+<script
+src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+<script 
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+<script src="assets/js/lib/app.js"></script>
+
+</body>
+</html>

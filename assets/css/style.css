@@ -40,12 +40,20 @@
 }
 
 .jumbotron {
-    background: url(../../img/banners/tempban2.png) center no-repeat;
-    background-size: cover;
     height: 295px;
     margin-bottom: 20px;
     margin-top: 10px;
    }
+
+.jumbotronHome {
+    background: url(../../img/banners/tempban2.png) center no-repeat;
+    background-size: cover;
+}
+
+.jumbotronScooter {
+    background: url(../../img/banners/tempban3.png) center no-repeat;
+    background-size: cover;
+}
 
 footer {
     font-size: .75rem;
