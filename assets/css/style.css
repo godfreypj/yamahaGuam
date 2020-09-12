@@ -5,16 +5,16 @@
 .darkblackbg {
 
     /* Dark choice */
-    background-color: #1E0102;
+    /* background-color: #303030; */
 
     /* Light choice */
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
 }
 
 .darkgreybg {
 
     /* Dark choice */
-    background-color: #343434;
+    background-color: #484848;
 
     /* Light choice */
     /* background-color: #F8F4FF; */
@@ -33,10 +33,37 @@
 .lightredbg {
 
     /* Light choice */
-    background-color: #E3DFDF;
+    background-color: #909090;
 
     /* Light choice */
     /* background-color: #FFFFFF; */
+}
+
+.topnav {
+    padding-left: 19%;
+}
+
+.navbartext {
+    font-size: .25em;
+    color: #484848;
+    padding-left: 19%;
+}
+
+.icon {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 25px;
+}
+
+.navbarlogo {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    z-index: 1051;
+}
+
+.phone {
+    margin-right: 50px;
 }
 
 .jumbotron {
@@ -55,6 +82,21 @@
     background-size: cover;
 }
 
+.scooterImage {
+    height: 200px;
+    width: 225px;
+    box-shadow: .5px .5px 5px #F30611;
+}
+
+.scooterGrid {
+    padding: 30px;
+}
+
+.arrow {
+    height: 30px;
+    width: 700px;
+}
+
 footer {
     font-size: .75rem;
     padding-left: 50px;
@@ -67,4 +109,8 @@ nav a:hover {
 
     color: #F1FAEE;
     /* color: #180001; */
+}
+
+.visborder {
+    border: 3px solid pink;
 }
