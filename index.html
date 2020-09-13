@@ -21,15 +21,14 @@
 
 <!-- Body -->
 
-<body class="darkgreybg">
+<body class="lightbodybg">
 
 <!-- Menu/Navbar/Header  Standard BS navbar w/ hamburger menu when in mobile view.  Color override to match site color scheme-->
-<nav class="navbar navbar-light navbar-expand-lg darkblackbg" 
-role="navigation">
+<nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
 <!-- Brand Logo/Home Button -->
     <a href="home.html" class="navbar-brand">
         <img src="img/logos/blackred-rev.png" 
-        class="img-fluid darkblackbg"
+        class="img-fluid lightbodybg"
         alt="Yamaha logo image">
     </a>
 <!-- Hamburger button on right side of menu when in mobile view-->
@@ -42,13 +41,16 @@ role="navigation">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
+                <a href="featured.html" class="nav-link font-weight-bold">About Us</a>
+            </li>
+            <li class="nav-item active">
                 <a href="featured.html" class="nav-link font-weight-bold">Guam Showroom</a>
             </li>
             <li class="nav-item active">
                 <a href="scooters.html" class="nav-link font-weight-bold">Scooter Rentals</a>
             </li>
             <li class="nav-item active">
-                <a href="products.html" class="nav-link font-weight-bold">All Products</a>
+                <a href="products.html" class="nav-link font-weight-bold">Sales & Service</a>
             </li>
         </ul>
 <!-- Menu item, right side-->
@@ -60,28 +62,23 @@ role="navigation">
     </div>
 </nav>
 <!-- Lower nav text and links -->
-<nav class="navbar navbar-light navbar-expand-lg darkblackbg navbartext" 
-role="navigation">
+<nav class="navbar navbar-light navbar-expand-lg lightmainbg navbartext" role="navigation">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active phone">
-                Phone: (671) 477-1776
-            </li>
-            <li class="nav-item active">
-                Mon-Fri: 9:00am-5:30pm | Sat: 9:00am-4:00pm | Sun: Closed
-            </li>
-        </ul>
+        <div class="navbar-nav mr-auto  navbartextPadding">
+                <p class="nav-item active">-- Phone: (671) 477-1776 -- </p>
+                <p class="nav-item active">-- Mon-Fri: 9:00am-5:30pm | Sat: 9:00am-4:00pm | Sun: Closed --</p>
+        </div>
         <ul class="nav navbar-nav navbar-right">
             <li class="nav-item active">
                 Follow us:     
                 <a href="https://www.facebook.com/rpmyamaha/">
-                    <img src="img/logos/FBicon.png"
-                    class="img-thumbnail img-fluid darkblackbg icon"
+                    <img src="img/logos/logo-facebook.svg"
+                    class="img-thumbnail img-fluid lightmainbg icon"
                     alt="Yamaha logo image">
                 </a>
                 <a href="https://www.instagram.com/rpmyamaha_guam/">
-                    <img src="img/logos/IGicon.png"
-                    class="img-thumbnail img-fluid darkblackbg icon"
+                    <img src="img/logos/logo-instagram.svg"
+                    class="img-thumbnail img-fluid lightmainbg icon"
                     alt="Yamaha logo image">
                 </a>
             </li>
@@ -95,7 +92,7 @@ role="navigation">
 </div>
 
 <!--Body.  3 rows of "About" information. Heading & 2 paragraphs-->
-<div class="container lightredbg border-top border-light rounded-top">
+<div class="container lightmainbg border-top border-light rounded-top mainContent">
     <div class="row">
         <div class="col-lg-12">
             <h1>About RPM Yamaha</h1>
@@ -120,7 +117,7 @@ role="navigation">
     </div>
 </div>
 <!-- Next row, hours on left side with a sub row/grid, image of map on right side -->
-<div class="container lightredbg border-bottom rounded-bottom">
+<div class="container lightmainbg border-bottom rounded-bottom mainContent">
     <div class="container row info">
         <div class="col-lg-6 col-sm-12 text-center">
             <p class="font-weight-bold">Hours of Operation</p>
@@ -158,45 +155,27 @@ role="navigation">
 </div>
 
 <!-- Footer - 3 columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
-<footer class="page-footer pt-4 darkblackbg lightredtext border-top rounded-top">
+<footer class="page-footer pt-2 darkblackbg border-top rounded-top lightmainbg">
         <div class="row text-center text-md-left">
             <div class="col-lg-3 col-sm-12 align-self-center">
                 <img src="img/logos/blackred-rev.png" 
-                class="img-fluid img-thumbnail lightredbg border border-dark border-round"
+                class="img-fluid lightbodybg"
                 alt="Yamaha logo">
             </div>
-            <div class="col-lg-3 col-sm-12 align-self-center">
-                <p>999 Marine Corps Dr</p>
-                <p>Address 12345</p>
-                <p>671-477-1776</p>
+            <div class="col-lg-3 col-sm-12 align-self-center text-center">
+                <p>256 East Marine Corps Drive</p>
+                <p>Hagatna, Guam 96910</p>
+                <p>(671) 477-1776</p>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <p class="text-uppercase text-center">Links</p>
-                <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                </ul>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <p>Development  |  <a href="#">Godfrey Global Solutions</a></p>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-sm-12 text-center">
+                    <a href="https://www.yamahamotorsports.com/">Yamaha Motors</a>
+                    <hr>
+                    <a href="https://global.yamaha-motor.com/business/">Yamaha Global</a>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <p class="text-uppercase text-center">Links</p>
-                <ul class="list-unstyled font-weight-bold text-center border-bottom pb-1">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                </ul>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <p>Design  |  <a href="#">Brian Stenger</a></p>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-sm-12 text-center">
+                    <p>Development  |  <a href="https://godfreyglobal.tech">Godfrey Global Solutions</a></p>
+                    <hr>
+                    <p>Design  |  <a href="#">Brian Stenger</a></p>
             </div>
         </div>
 </footer>
