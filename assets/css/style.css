@@ -1,4 +1,5 @@
 /* Color schemes, fonts & backgrounds */
+/* ------------------------------------------------ */
 
 .yamahaRed {
     color: #F30611;
@@ -17,6 +18,7 @@
 }
 
 /* Header styles */
+/* ------------------------------------------------ */
 .navbartext {
     font-size: .25em;
 }
@@ -33,7 +35,13 @@
     box-shadow: .5px .5px 5px #909090;
 }
 
+nav a:hover {
+    text-shadow: .5px .5px 5px #F30611;
+    color: #F1FAEE;
+}
+
 /* Banner styles */
+/* ------------------------------------------------ */
 .jumbotron {
     height: 295px;
     margin-bottom: 20px;
@@ -45,8 +53,8 @@
     background-size: cover;
 }
 
-.jumbotronScooter {
-    background: url(../../img/banners/tempban3.png) center no-repeat;
+.jumbotronAbout {
+    background: url(../../img/banners/oceanBanner.png) center no-repeat;
     background-size: cover;
 }
 
@@ -61,14 +69,14 @@
 }
 
 /* Body styles */
-
+/* ------------------------------------------------ */
 .mainContent {
     box-shadow: 0 10px 5px #000000;
     box-shadow:
 }
 
 /*Footer styles */
-
+/* ------------------------------------------------ */
 footer {
     font-size: .25rem;
     padding-left: 50px;
@@ -77,12 +85,10 @@ footer {
     margin-bottom: 15px;
 }
 
-nav a:hover {
-    text-shadow: .5px .5px 5px #F30611;
 
-    color: #F1FAEE;
-    /* color: #180001; */
-}
+
+
+
 
 .visborder {
     border: 3px solid pink;
