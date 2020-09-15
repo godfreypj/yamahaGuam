@@ -36,7 +36,7 @@
 }
 
 nav a:hover {
-    text-shadow: .5px .5px 5px #F30611;
+    text-shadow: .5px .5px .5px #F30611;
     color: #F1FAEE;
 }
 
@@ -58,14 +58,19 @@ nav a:hover {
     background-size: cover;
 }
 
-.scooterImage {
-    height: 200px;
-    width: 225px;
-    box-shadow: .5px .5px 5px #F30611;
+.jumbotronShowroom {
+    background: url(../../img/banners/oceanBanner.png) center no-repeat;
+    background-size: cover;
 }
 
-.scooterGrid {
-    padding: 30px;
+.jumbotronScooters {
+    background: url(../../img/banners/oceanBanner.png) center no-repeat;
+    background-size: cover;
+}
+
+.jumbotronService {
+    background: url(../../img/banners/oceanBanner.png) center no-repeat;
+    background-size: cover;
 }
 
 /* Body styles */
@@ -83,6 +88,12 @@ footer {
     padding-right: 50px;
     margin-top: 100px;
     margin-bottom: 15px;
+}
+
+/* Misc styles */
+
+h1 {
+    text-shadow: #909090 1px 1px 5px;
 }
 
 
