@@ -17,6 +17,19 @@
     color: #F1FAEE;
 }
 
+/* Nav styles */
+/* ------------------------------------------------ */
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #F8F7FF;
+    margin-bottom: 10px;
+    font-size: 75%;
+    box-shadow: .5px .5px 5px #909090;
+}
+
+.motoLink {
+    margin-left: 7%;
+}
 /* Header styles */
 /* ------------------------------------------------ */
 .navbartext {

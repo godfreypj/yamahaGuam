@@ -26,68 +26,97 @@
 
 <!-- Menu/Navbar/Header  Standard BS navbar w/ hamburger menu when in mobile view.  
     Color override to match site color scheme -->
-<nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
-<!-- Brand Logo/Home Button left side -->
-    <a href="index.html" class="navbar-brand">
-        <img src="img/logos/blackred-rev.png" 
-        class="img-fluid lightbodybg"
-        alt="Yamaha logo image">
-    </a>
-<!-- Hamburger button on right side of menu when in mobile view-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" 
-    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-    aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-<!-- Menu items, left side-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a href="about.html" class="nav-link font-weight-bold">About Us</a>
-            </li>
-            <li class="nav-item active">
-                <a href="showroom.html" class="nav-link font-weight-bold">Guam Showroom</a>
-            </li>
-            <li class="nav-item active">
-                <a href="scooters.html" class="nav-link font-weight-bold">Scooter Rentals</a>
-            </li>
-            <li class="nav-item active">
-                <a href="service.html" class="nav-link font-weight-bold">Service</a>
-            </li>
-        </ul>
-<!-- Menu item, right side-->
-        <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item active">
-                <a href="index.html" class="nav-link font-weight-bold" tabindex="1">Home</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!-- Lower nav text and links left side -->
-<nav class="navbar navbar-light navbar-expand-lg lightmainbg navbartext" role="navigation">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto  navbartextPadding">
-                <p>-- Phone: (671) 477-1776 -- </p>
-                <p>-- Mon-Fri: 9:00am-5:30pm | Sat: 9:00am-4:00pm | Sun: Closed --</p>
+    <nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
+        <!-- Brand Logo/Home Button left side -->
+        <a href="index.html" class="navbar-brand">
+            <img src="img/logos/blackred-rev.png" 
+            class="img-fluid lightbodybg"
+            alt="Yamaha logo image">
+        </a>
+        <!-- Hamburger button on right side of menu when in mobile view-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Menu items, left side-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link font-weight-bold">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" 
+                    class="nav-link font-weight-bold active" data-toggle="dropdown" role="button" 
+                    aria-haspopup="true" aria-expanded="false">Guam Showroom</a>
+                    <div class="dropdown-menu">
+                        <a href="#" 
+                        class="nav-link dropdown-toggle active motoLink" data-toggle="dropdown" role="button" 
+                        aria-haspopup="true" aria-expanded="false">Motorcycles</a>
+                        <ul class="nav nav-pills mr-auto">
+                            <li class="nav-item dropdown">
+                                <div class="dropdown-menu nav-item">
+                                    <a class="dropdown-item nav-link text-center" href="#">SuperSport</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Hyper-Naked</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Dual Sport</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">MotoCross</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Cross Country</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Trail</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Adventure Touring</a>
+                                    <a class="dropdown-item nav-link text-center" href="#">Sports Heritage</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="dropdown-item" href="#">ATVs</a>
+                        <a class="dropdown-item" href="#">Side-By-Side</a>
+                        <a class="dropdown-item" href="#">Outboard Engines</a>
+                        <a class="dropdown-item" href="#">Watercraft & Waverunners</a>
+                        <a class="dropdown-item" href="#">Boat & Utility Trailers</a>
+                        <a class="dropdown-item" href="#">Yamalubes</a>
+                        <a class="dropdown-item" href="#">Accessories</a>
+
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a href="scooters.html" class="nav-link font-weight-bold">Scooter Rentals</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="service.html" class="nav-link font-weight-bold">Service</a>
+                </li>
+            </ul>
+            <!-- Menu item, right side-->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link font-weight-bold" tabindex="1">Home</a>
+                </li>
+            </ul>
         </div>
-<!-- Social media links/icons right side-->
-        <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item active">
-                Follow us:     
-                <a href="https://www.facebook.com/rpmyamaha/">
-                    <img src="img/logos/logo-facebook.svg"
-                    class="img-thumbnail img-fluid lightmainbg icon"
-                    alt="Yamaha logo image">
-                </a>
-                <a href="https://www.instagram.com/rpmyamaha_guam/">
-                    <img src="img/logos/logo-instagram.svg"
-                    class="img-thumbnail img-fluid lightmainbg icon"
-                    alt="Yamaha logo image">
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+    </nav>
+    <!-- Lower nav text and links left side -->
+    <nav class="navbar navbar-light navbar-expand-lg lightmainbg navbartext" role="navigation">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav mr-auto  navbartextPadding">
+                    <p>-- Phone: (671) 477-1776 -- </p>
+                    <p>-- Mon-Fri: 9:00am-5:30pm | Sat: 9:00am-4:00pm | Sun: Closed --</p>
+            </div>
+            <!-- Social media links/icons right side-->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item active">
+                    Follow us:     
+                    <a href="https://www.facebook.com/rpmyamaha/">
+                        <img src="img/logos/logo-facebook.svg"
+                        class="img-thumbnail img-fluid lightmainbg icon"
+                        alt="Yamaha logo image">
+                    </a>
+                    <a href="https://www.instagram.com/rpmyamaha_guam/">
+                        <img src="img/logos/logo-instagram.svg"
+                        class="img-thumbnail img-fluid lightmainbg icon"
+                        alt="Yamaha logo image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 <!-- Jumbotron Banner image -->
 <div class="container">
