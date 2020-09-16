@@ -30,6 +30,11 @@
 .motoLink {
     margin-left: 7%;
 }
+
+.floatingNav {
+    color: black;
+    line-height: .5em;
+}
 /* Header styles */
 /* ------------------------------------------------ */
 .navbartext {
