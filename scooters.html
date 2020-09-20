@@ -30,7 +30,7 @@
         <!-- Brand Logo/Home Button left side -->
         <a href="index.html" class="navbar-brand">
             <img src="img/logos/blackred-rev.png" 
-            class="img-fluid lightbodybg"
+            class="img-fluid lightmainbg"
             alt="Yamaha logo image">
         </a>
         <!-- Hamburger button on right side of menu when in mobile view-->
@@ -45,37 +45,9 @@
                 <li class="nav-item active">
                     <a href="index.html" class="nav-link font-weight-bold">About Us</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a href="#" 
-                    class="nav-link font-weight-bold active" data-toggle="dropdown" role="button" 
-                    aria-haspopup="true" aria-expanded="false">Guam Showroom</a>
-                    <div class="dropdown-menu">
-                        <a href="#" 
-                        class="nav-link dropdown-toggle active motoLink" data-toggle="dropdown" role="button" 
-                        aria-haspopup="true" aria-expanded="false">Motorcycles</a>
-                        <ul class="nav nav-pills mr-auto">
-                            <li class="nav-item dropdown">
-                                <div class="dropdown-menu nav-item">
-                                    <a class="dropdown-item nav-link text-center" href="#">SuperSport</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Hyper-Naked</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Dual Sport</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">MotoCross</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Cross Country</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Trail</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Adventure Touring</a>
-                                    <a class="dropdown-item nav-link text-center" href="#">Sports Heritage</a>
-                                </div>
-                            </li>
-                        </ul>
-                        <a class="dropdown-item" href="#">ATVs</a>
-                        <a class="dropdown-item" href="#">Side-By-Side</a>
-                        <a class="dropdown-item" href="#">Outboard Engines</a>
-                        <a class="dropdown-item" href="#">Watercraft & Waverunners</a>
-                        <a class="dropdown-item" href="#">Boat & Utility Trailers</a>
-                        <a class="dropdown-item" href="#">Yamalubes</a>
-                        <a class="dropdown-item" href="#">Accessories</a>
-
-                    </div>
+                <li class="nav-item active">
+                    <a href="index.html" class="nav-link font-weight-bold">About Us</a>
+                </li>
                 </li>
                 <li class="nav-item active">
                     <a href="scooters.html" class="nav-link font-weight-bold">Scooter Rentals</a>
@@ -117,38 +89,67 @@
             </ul>
         </div>
     </nav>
-
     <!-- Jumbotron Banner image -->
     <div class="container">
         <div class="jumbotron jumbotronScooters align-self-center mainContent" ></div>
     </div>
 
     <!-- Scooter viewport -->
-    <div class="container lightmainbg mainContent visborder">
-        <div class="row visborder">
-            <div class="col-lg-4 col-sm-12 p-2 visborder">
-                <h3>Image with price/info</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col align-self-center visborder">
+                <h5 class="text-center" id="showroomTitle">Title</h5>
             </div>
-            <div class="col-lg-5 col-sm-12 p-2 visborder">
-                <h3>Image of unit</h3>
-            </div>
-            <div class="col-lg-3 col-sm-12 p-2 pl-4 order-first visborder">
-                <h4 id="viewPortTitle">Title</h4>
-                <ul class="nav flex-column small floatingNav">
-                    <li class="nav-item" id="viewPortNavItem">
-                      <a class="nav-link text-black-50" href="#">Item</a>
+        </div>
+    </div>
+    <div class="row mainContent lightmainbg visborder">
+        <div class="col-lg-3 col-sm-12 visborder">
+            <!-- Nav for showroom viewport -->
+            <nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
+                <ul class="nav flex-column">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                        role="button" aria-haspopup="true" aria-expanded="false">Motorcycles</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">SuperSport</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Hyper-Naked</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Dual Sport</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">MotoCross</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Cross Country</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Trail</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Adventure Touring</a>
+                            <a class="dropdown-item nav-link text-center" href="showroom.html">Sports Heritage</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-black-50" href="#">Item</a>
+                    <a class="nav-link" href="#">ATVs</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-black-50" href="#">Item</a>
+                    <a class="nav-link" href="#">Side-by-side</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-black-50" href="#">Item</a>
+                    <a class="nav-link" href="#">Outboard Engines</a>
                     </li>
-                  </ul>
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Watercraft & Waverunners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Boat & Utility Engines</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Yamalubes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accessories</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-lg-4 col-sm-12 p-2 visborder">
+            <h3>Image with price/info</h3>
+        </div>
+        <div class="col-lg-5 col-sm-12 p-2 visborder">
+            <h3>Image of unit</h3>
         </div>
     </div>
 
@@ -187,7 +188,7 @@ crossorigin="anonymous"></script>
 src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 crossorigin="anonymous"></script>
-<script src="assets/js/lib/app.js"></script>
+<script type="text/javascript" src="assets/js/lib/app.js"></script>
 
 </body>
 </html>
