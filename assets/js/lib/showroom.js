@@ -1,4 +1,4 @@
-var elements = document.getElementsByClassName("showroomLink");
+var elements = document.getElementsByClassName("showroom-link");
     
     function getTitle(e) {
 
