@@ -19,10 +19,22 @@
 
 /* Nav styles */
 /* ------------------------------------------------ */
+.dropdown-menu {
+    background-color: transparent;
+}
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: #F8F7FF;
-    margin-bottom: 10px;
+.nav-pills .nav-link, .nav-pills .show > .nav-link {
+    background-color: #F30611;
+    color: white;
+    margin-bottom: 4px;
+    font-size: 75%;
+    box-shadow: .5px .5px 5px #909090;
+}
+
+.nav-pills .nav-link, .dropdown-item .show > .nav-link {
+    background-color: blue;
+    color: white;
+    margin-bottom: 4px;
     font-size: 75%;
     box-shadow: .5px .5px 5px #909090;
 }
@@ -77,12 +89,12 @@ nav a:hover {
 }
 
 .jumbotronShowroom {
-    background: url(../../img/banners/oceanBanner.png) center no-repeat;
+    background: url(../../img/banners/tempban3.png) center no-repeat;
     background-size: cover;
 }
 
 .jumbotronScooters {
-    background: url(../../img/banners/oceanBanner.png) center no-repeat;
+    background: url(../../img/banners/tempban4.png) center no-repeat;
     background-size: cover;
 }
 
@@ -97,6 +109,15 @@ nav a:hover {
     box-shadow: 0 10px 5px #000000;
 }
 
+/* Showroom images */
+.showroom-info {
+    height: 400px;
+    width: 600px;
+}
+.showroom-image {
+    height: 400px;
+    width: 600px;
+}
 /*Footer styles */
 /* ------------------------------------------------ */
 footer {
