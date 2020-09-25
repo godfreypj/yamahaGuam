@@ -95,6 +95,14 @@ nav a:hover {
     height: 400px;
     width: 500px;
 }
+#scooter-image {
+    height: 400px;
+    width: 500px;
+}
+#scooter-price {
+    height: 400px;
+    width: 500px;
+}
 /*Footer styles */
 /* ------------------------------------------------ */
 footer {

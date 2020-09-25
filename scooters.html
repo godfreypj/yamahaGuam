@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
 
 </head>
 
@@ -97,59 +98,31 @@
     <!-- Scooter viewport -->
     <div class="container">
         <div class="row">
-            <div class="col align-self-center visborder">
-                <h5 class="text-center" id="showroomTitle">Title</h5>
+            <div class="col align-self-center">
+                <h5 class="text-center lightmainbg" id="scooter-title">Scooters</h5>
             </div>
         </div>
     </div>
-    <div class="row mainContent lightmainbg visborder">
-        <div class="col-lg-3 col-sm-12 visborder">
+    <div class="row mainContent lightmainbg">
+        <div class="col-lg-3 col-sm-12 my-auto">
             <!-- Nav for showroom viewport -->
-            <nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
-                <ul class="nav flex-column">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
-                        role="button" aria-haspopup="true" aria-expanded="false">Motorcycles</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">SuperSport</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Hyper-Naked</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Dual Sport</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">MotoCross</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Cross Country</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Trail</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Adventure Touring</a>
-                            <a class="dropdown-item nav-link text-center" href="showroom.html">Sports Heritage</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">ATVs</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Side-by-side</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Outboard Engines</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Watercraft & Waverunners</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Boat & Utility Engines</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Yamalubes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Accessories</a>
-                    </li>
+            <!-- Nav for showroom viewport -->
+            <nav>
+                <ul class="nav-menu nav-vertical text-justify pl-4">
+                    <li><a href="#" class="scooter-link">Zuma 50F</a></li>
+                    <li><a href="#" class="scooter-link">Zuma 125</a></li>
+                    <li><a href="#" class="scooter-link">SMAX</a></li>
+                    <li><a href="#" class="scooter-link">XMAX</a></li>
+                    <li><a href="#" class="scooter-link">Rental Models</a></li>
+                    <li><a href="#" class="scooter-link">Rental Info</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="col-lg-4 col-sm-12 p-2 visborder">
-            <h3>Image with price/info</h3>
+        <div class="col-lg-4 col-sm-12 p-2">
+            <img src="img/thumbnails/yamaha-logo.png" class="img-fluid" id="scooter-price" alt="Yamaha Logo">
         </div>
-        <div class="col-lg-5 col-sm-12 p-2 visborder">
-            <h3>Image of unit</h3>
+        <div class="col-lg-5 col-sm-12 p-2">
+            <img src="img/thumbnails/yamaha-logo.png" class="img-fluid" id="scooter-image" alt="Yamaha Logo">
         </div>
     </div>
 
@@ -188,7 +161,7 @@ crossorigin="anonymous"></script>
 src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
 integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
 crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/lib/scooters.js"></script>
+<script type="module" src="assets/js/scooters.js"></script>
 
 </body>
 </html>
