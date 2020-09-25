@@ -19,34 +19,11 @@
 
 /* Nav styles */
 /* ------------------------------------------------ */
-.dropdown-menu {
-    background-color: transparent;
-}
-
-.nav-pills .nav-link, .nav-pills .show > .nav-link {
-    background-color: #F30611;
-    color: white;
-    margin-bottom: 4px;
-    font-size: 75%;
-    box-shadow: .5px .5px 5px #909090;
-}
-
-.nav-pills .nav-link, .dropdown-item .show > .nav-link {
-    background-color: blue;
-    color: white;
-    margin-bottom: 4px;
-    font-size: 75%;
-    box-shadow: .5px .5px 5px #909090;
-}
 
 .motoLink {
     margin-left: 7%;
 }
 
-.floatingNav {
-    color: black;
-    line-height: .5em;
-}
 /* Header styles */
 /* ------------------------------------------------ */
 .navbartext {
@@ -110,13 +87,13 @@ nav a:hover {
 }
 
 /* Showroom images */
-.showroom-info {
+#showroom-price {
     height: 400px;
-    width: 600px;
+    width: 500px;
 }
-.showroom-image {
+#showroom-image {
     height: 400px;
-    width: 600px;
+    width: 500px;
 }
 /*Footer styles */
 /* ------------------------------------------------ */

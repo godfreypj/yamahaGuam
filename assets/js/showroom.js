@@ -1,14 +1,15 @@
 //Functionality to change image and info presented to the user on the showroom page
 
-//Import inventory data
-import {showroomInventory} from ''
+//Import the inventory data
+import { showroomInventory } from "./inventory.js";
+
 
 var elements = document.getElementsByClassName("showroom-link");
     
     function showItem(e) {
 
         var title = this.innerHTML;
-        for(i=0; i<showroomInventory.length; i++) {
+        for(var i=0; i<showroomInventory.length; i++) {
             if(title==showroomInventory[i].title) {
                 document.getElementById("showroom-title").innerHTML = title
                 document.getElementById("showroom-image").setAttribute("src", showroomInventory[i].img);
