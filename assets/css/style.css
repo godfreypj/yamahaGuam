@@ -10,7 +10,12 @@
 }
 
 .lightmainbg {
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
+    background: linear-gradient(to top, #141414, #333333 99%);
+}
+
+.lightgreybg {
+    background-color: #333333;
 }
 
 .lightredtext {
@@ -27,7 +32,27 @@
 /* Header styles */
 /* ------------------------------------------------ */
 .navbartext {
-    font-size: .25em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: .8em;
+    color: #F8F7FF;
+    line-height: 0;
+}
+
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: .8em;
+    font-stretch: extra-expanded;
+}
+
+.header {
+    border-bottom: 5px solid #F30611;
+}
+
+.navbold-text {
+    font-weight: bolder;
+    color: #F30611;
 }
 
 .navbartextPadding {
@@ -40,6 +65,12 @@
     width: 2rem;
     margin-left: 25px;
     box-shadow: .5px .5px 5px #909090;
+    background-color: #f8f8f8;
+}
+
+.nav-img {
+    height: auto;
+    max-width: 50%;
 }
 
 nav a:hover {
