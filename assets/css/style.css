@@ -5,16 +5,16 @@
     color: #F30611;
 }
 
-.lightbodybg {
-    background-color: #F8F7FF;
+.darkbodybg {
+    background-color: #141414;
 }
 
-.lightmainbg {
+.darkmainbg {
     /* background-color: #FFFFFF; */
     background: linear-gradient(to top, #141414, #333333 99%);
 }
 
-.lightgreybg {
+.darkgreybg {
     background-color: #333333;
 }
 
@@ -70,7 +70,7 @@
 
 .nav-img {
     height: auto;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 nav a:hover {
@@ -80,57 +80,31 @@ nav a:hover {
 
 /* Banner styles */
 /* ------------------------------------------------ */
+
 .jumbotron {
-    height: 295px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-   }
-
-.jumbotronHome {
-    background: url(../../img/banners/tempban2.png) center no-repeat;
-    background-size: cover;
+  position: relative;
+  overflow: hidden;
+  background-color:#333333;
 }
-
-.jumbotronAbout {
-    background: url(../../img/banners/oceanBanner.png) center no-repeat;
-    background-size: cover;
-}
-
-.jumbotronShowroom {
-    background: url(../../img/banners/tempban3.png) center no-repeat;
-    background-size: cover;
-}
-
-.jumbotronScooters {
-    background: url(../../img/banners/tempban4.png) center no-repeat;
-    background-size: cover;
-}
-
-.jumbotronService {
-    background: url(../../img/banners/oceanBanner.png) center no-repeat;
-    background-size: cover;
+.jumbotron-bg {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  opacity:0.8;
 }
 
 /* Body styles */
 /* ------------------------------------------------ */
 .mainContent {
     box-shadow: 0 10px 5px #000000;
+    color: #F1FAEE;
 }
 
-/* Showroom images */
-#showroom-price {
-    height: 400px;
-    width: 500px;
-}
-#showroom-image {
-    height: 400px;
-    width: 500px;
-}
-#scooter-image {
-    height: 400px;
-    width: 500px;
-}
-#scooter-price {
+/* Showroom/Scooter/Watercraft images */
+.viewport-image{
     height: 400px;
     width: 500px;
 }
@@ -142,12 +116,18 @@ footer {
     padding-right: 50px;
     margin-top: 100px;
     margin-bottom: 15px;
+    border-top: 5px solid #F30611;
 }
 
 /* Misc styles */
 
 h1 {
+    color: #F1FAEE;
     text-shadow: #909090 1px 1px 5px;
+}
+
+.main-header {
+    border-bottom: 2px solid #F30611;
 }
 
 

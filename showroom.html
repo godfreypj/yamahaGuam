@@ -28,13 +28,55 @@
 
 <!-- Menu/Navbar/Header  Standard BS navbar w/ hamburger menu when in mobile view.  
     Color override to match site color scheme -->
-    <nav class="navbar navbar-light navbar-expand-lg lightmainbg" role="navigation">
+    <div class="row darkmainbg pb-2 header">
+        <div class="col-lg-3 col-sm-12 my-auto text-center">
+            <img src="img/logos/Logo-Yamaha.png" class="img-fluid nav-img" alt="Yamaha logo">
+        </div>
+        <div class="col-lg-3 col-sm-6 my-auto text-center">
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <img src="img/logos/outboard.png" class="img-fluid nav-img" alt="Yamaha outboards logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-sm-6">
+                    <img src="img/logos/yama-lube.png" class="img-fluid nav-img lightmainbg" alt="Yamalube logo">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 my-auto pt-3 navbartext">
+            <div class="row">
+                <div class="col-6 text-left">
+                    <p class="navbold-text">Phone:</p>
+                    <p class="navbold-text">Mon-Fri:</p>
+                    <p class="navbold-text">Sat:</p>
+                    <p class="navbold-text">Sun:</p>
+                </div>
+                <div class="col-6 text-right">
+                    <p><a href="tel:6714771776" class="navbartext">(671) 477-1776</a></p>
+                    <p>9:00am-5:30pm</p>
+                    <p>9:00am-4:00pm</p>
+                    <p>Closed</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 my-auto text-center navbartext">
+            Follow us:     
+            <a href="https://www.facebook.com/rpmyamaha/">
+                <img src="img/logos/logo-facebook.svg"
+                class="img-thumbnail img-fluid icon"
+                alt="Yamaha logo image">
+            </a>
+            <a href="https://www.instagram.com/rpmyamaha_guam/">
+                <img src="img/logos/logo-instagram.svg"
+                class="img-thumbnail img-fluid icon"
+                alt="Yamaha logo image">
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg darkgreybg" role="navigation">
         <!-- Brand Logo/Home Button left side -->
-        <a href="index.html" class="navbar-brand">
-            <img src="img/logos/blackred-rev.png" 
-            class="img-fluid lightmainbg"
-            alt="Yamaha logo image">
-        </a>
+
         <!-- Hamburger button on right side of menu when in mobile view-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" 
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
@@ -42,219 +84,201 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Menu items, left side-->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse darkgreybg" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto text-center">
                 <li class="nav-item active">
-                    <a href="index.html" class="nav-link font-weight-bold">About Us</a>
+                    <a href="index.html" class="nav-link font-weight-bold mx-3">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="showroom.html" class="nav-link font-weight-bold">Showroom</a>
+                    <a href="about.html" class="nav-link font-weight-bold mx-3">About</a>
+                </li>                
+                <li class="nav-item active">
+                    <a href="scooters.html" class="nav-link font-weight-bold mx-3">Scooters</a>
+                </li>
                 </li>
                 <li class="nav-item active">
-                    <a href="scooters.html" class="nav-link font-weight-bold">Scooters</a>
+                    <a href="showroom.html" class="nav-link font-weight-bold mx-3">Showroom</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="service.html" class="nav-link font-weight-bold">Service</a>
+                    <a href="watercraft.html" class="nav-link font-weight-bold mx-3">Watercraft</a>
                 </li>
-            </ul>
-            <!-- Menu item, right side-->
-            <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item active">
-                    <a href="index.html" class="nav-link font-weight-bold" tabindex="1">Home</a>
+                    <a href="service.html" class="nav-link font-weight-bold mx-3">Service</a>
                 </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Lower nav text and links left side -->
-    <nav class="navbar navbar-light navbar-expand-lg lightmainbg navbartext" role="navigation">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav mr-auto  navbartextPadding">
-                    <p>-- Phone: (671) 477-1776 -- </p>
-                    <p>-- Mon-Fri: 9:00am-5:30pm | Sat: 9:00am-4:00pm | Sun: Closed --</p>
-            </div>
-            <!-- Social media links/icons right side-->
-            <ul class="nav navbar-nav navbar-right">
                 <li class="nav-item active">
-                    Follow us:     
-                    <a href="https://www.facebook.com/rpmyamaha/">
-                        <img src="img/logos/logo-facebook.svg"
-                        class="img-thumbnail img-fluid lightmainbg icon"
-                        alt="Yamaha logo image">
-                    </a>
-                    <a href="https://www.instagram.com/rpmyamaha_guam/">
-                        <img src="img/logos/logo-instagram.svg"
-                        class="img-thumbnail img-fluid lightmainbg icon"
-                        alt="Yamaha logo image">
-                    </a>
+                    <a href="contact.html" class="nav-link font-weight-bold mx-3">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-
 <!-- Jumbotron Banner image -->
-<div class="container">
-    <div class="jumbotron jumbotronShowroom align-self-center mainContent" ></div>
-</div>
+    <div class="jumbotron jumbotron-fluid darkgreybg mainContent">
+        <picture >
+            <source media="(min-width):800px)"
+            srcset="img/banners/oceanBanner.png">
+            <img src="img/banners/oceanBanner.png" class="img-fluid jumbotron-bg" alt="Action banner">
+        </picture>
+    </div>
 
 <!-- Showroom viewport -->
-    <div class="container">
+    <div class="container mainContent darkgreybg">
         <div class="row">
             <div class="col align-self-center">
-                <h5 class="text-center lightmainbg" id="showroom-title">Guam Showroom</h5>
+                <h5 class="text-center" id="showroom-title">Guam Showroom</h5>
             </div>
         </div>
-    </div>
-    <div class="row mainContent lightmainbg">
-        <div class="col-lg-3 col-sm-12 my-auto">
-            <!-- Nav for showroom viewport -->
-            <nav>
-                <ul class="nav-menu nav-vertical text-justify pl-4">
-                    <li>
-                        <a href="#" class="nav-active">Motorcycles</a>
-                        <ul>
-                            <li><a href="#">SuperSport</a>
-                                <ul>
-                                    <li><a href="#" class="showroom-link">YZF-R1</a></li>
-                                    <li><a href="#" class="showroom-link">YZF-R1M</a></li>
-                                    <li><a href="#" class="showroom-link">YZF-R3</a></li>
-                                    <li><a href="#" class="showroom-link">YZF-R3 ABS</a></li>
-                                    <li><a href="#" class="showroom-link">YZF-R6</a></li>
-                                </ul>
-                                <li><a href="#">Hyper-Naked</a>
+        <div class="row mainContent lightmainbg pr-2">
+            <div class="col-lg-3 col-sm-12 my-auto">
+                <!-- Nav for showroom viewport -->
+                <nav>
+                    <ul class="nav-menu nav-vertical text-justify pl-4">
+                        <li>
+                            <a href="#" class="nav-active">Motorcycles</a>
+                            <ul>
+                                <li><a href="#">SuperSport</a>
                                     <ul>
-                                        <li><a href="#" class="showroom-link">MT-03</a></li>
-                                        <li><a href="#" class="showroom-link">MT-07</a></li>
-                                        <li><a href="#" class="showroom-link">MT-09</a></li>
-                                        <li><a href="#" class="showroom-link">MT-10</a></li>
+                                        <li><a href="#" class="showroom-link">YZF-R1</a></li>
+                                        <li><a href="#" class="showroom-link">YZF-R1M</a></li>
+                                        <li><a href="#" class="showroom-link">YZF-R3</a></li>
+                                        <li><a href="#" class="showroom-link">YZF-R3 ABS</a></li>
+                                        <li><a href="#" class="showroom-link">YZF-R6</a></li>
                                     </ul>
+                                    <li><a href="#">Hyper-Naked</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">MT-03</a></li>
+                                            <li><a href="#" class="showroom-link">MT-07</a></li>
+                                            <li><a href="#" class="showroom-link">MT-09</a></li>
+                                            <li><a href="#" class="showroom-link">MT-10</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Dual Sport</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">TW200</a></li>
+                                            <li><a href="#" class="showroom-link">WR250R</a></li>
+                                            <li><a href="#" class="showroom-link">XT250</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">MotoCross</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">YZ125</a></li>
+                                            <li><a href="#" class="showroom-link">YZ250</a></li>
+                                            <li><a href="#" class="showroom-link">YZ250F</a></li>
+                                            <li><a href="#" class="showroom-link">YZ450F</a></li>
+                                            <li><a href="#" class="showroom-link">YZ65</a></li>
+                                            <li><a href="#" class="showroom-link">YZ85</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Cross Country</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">WR205F</a></li>
+                                            <li><a href="#" class="showroom-link">WR450F</a></li>
+                                            <li><a href="#" class="showroom-link">YZ125X</a></li>
+                                            <li><a href="#" class="showroom-link">YZ250FX</a></li>
+                                            <li><a href="#" class="showroom-link">YZ250X</a></li>
+                                            <li><a href="#" class="showroom-link">YZ550FX</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Trail</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">PW50</a></li>
+                                            <li><a href="#" class="showroom-link">TT-R110E</a></li>
+                                            <li><a href="#" class="showroom-link">TT-R125LE</a></li>
+                                            <li><a href="#" class="showroom-link">TT-R230</a></li>
+                                            <li><a href="#" class="showroom-link">TT-R50E</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Adventure Touring</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">Super Ténéré ES</a></li>
+                                            <li><a href="#" class="showroom-link">Ténéré 700</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Sports Heritage</a>
+                                        <ul>
+                                            <li><a href="#" class="showroom-link">Bolt</a></li>
+                                            <li><a href="#" class="showroom-link">Raven</a></li>
+                                            <li><a href="#" class="showroom-link">Bolt R-Spec</a></li>
+                                            <li><a href="#" class="showroom-link">V Star 250</a></li>
+                                            <li><a href="#" class="showroom-link">VMAX</a></li>
+                                            <li><a href="#" class="showroom-link">XSR700</a></li>
+                                            <li><a href="#" class="showroom-link">XSR900</a></li>
+                                        </ul>
+                                    </li>
                                 </li>
-                                <li><a href="#">Dual Sport</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">TW200</a></li>
-                                        <li><a href="#" class="showroom-link">WR250R</a></li>
-                                        <li><a href="#" class="showroom-link">XT250</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">MotoCross</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">YZ125</a></li>
-                                        <li><a href="#" class="showroom-link">YZ250</a></li>
-                                        <li><a href="#" class="showroom-link">YZ250F</a></li>
-                                        <li><a href="#" class="showroom-link">YZ450F</a></li>
-                                        <li><a href="#" class="showroom-link">YZ65</a></li>
-                                        <li><a href="#" class="showroom-link">YZ85</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Cross Country</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">WR205F</a></li>
-                                        <li><a href="#" class="showroom-link">WR450F</a></li>
-                                        <li><a href="#" class="showroom-link">YZ125X</a></li>
-                                        <li><a href="#" class="showroom-link">YZ250FX</a></li>
-                                        <li><a href="#" class="showroom-link">YZ250X</a></li>
-                                        <li><a href="#" class="showroom-link">YZ550FX</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Trail</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">PW50</a></li>
-                                        <li><a href="#" class="showroom-link">TT-R110E</a></li>
-                                        <li><a href="#" class="showroom-link">TT-R125LE</a></li>
-                                        <li><a href="#" class="showroom-link">TT-R230</a></li>
-                                        <li><a href="#" class="showroom-link">TT-R50E</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Adventure Touring</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">Super Ténéré ES</a></li>
-                                        <li><a href="#" class="showroom-link">Ténéré 700</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Sports Heritage</a>
-                                    <ul>
-                                        <li><a href="#" class="showroom-link">Bolt</a></li>
-                                        <li><a href="#" class="showroom-link">Raven</a></li>
-                                        <li><a href="#" class="showroom-link">Bolt R-Spec</a></li>
-                                        <li><a href="#" class="showroom-link">V Star 250</a></li>
-                                        <li><a href="#" class="showroom-link">VMAX</a></li>
-                                        <li><a href="#" class="showroom-link">XSR700</a></li>
-                                        <li><a href="#" class="showroom-link">XSR900</a></li>
-                                    </ul>
-                                </li>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">ATVs</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">Grizzly</a></li>
-                            <li><a href="#" class="showroom-link">Kodiak 700</a></li>
-                            <li><a href="#" class="showroom-link">Kodiak 450</a></li>
-                            <li><a href="#" class="showroom-link">Raptor 700/90</a></li>
-                            <li><a href="#" class="showroom-link">YFZ450R/YFZ50</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Side-by-Side</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">YXZ1000R</a></li>
-                            <li><a href="#" class="showroom-link">Wolverine X4</a></li>
-                            <li><a href="#" class="showroom-link">Wolverine X2</a></li>
-                            <li><a href="#" class="showroom-link">Viking EPS</a></li>
-                            <li><a href="#" class="showroom-link">Viking</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Outboard Engines</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">Four Stroke</a></li>
-                            <li><a href="#" class="showroom-link">Two Stroke</a></li>
-                            <li><a href="#" class="showroom-link">Enduro</a></li>
-                            <li><a href="#" class="showroom-link">VMAX</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Wave Runners</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">FX SHO CR</a></li>
-                            <li><a href="#" class="showroom-link">GP1800RSVHO</a></li>
-                            <li><a href="#" class="showroom-link">VX Cruiser</a></li>
-                            <li><a href="#" class="showroom-link">EXR</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#" class="showroom-link">Watercraft Trailers</a></li>
-                    <li><a href="#" class="showroom-link">Boat Trailers</a></li>
-                    <li><a href="#">Yamalube</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">Lube Oils</a></li>
-                            <li><a href="#" class="showroom-link">Lube Kits</a></li>
-                            <li><a href="#" class="showroom-link">Additives</a></li>
-                            <li><a href="#" class="showroom-link">Inhibitors</a></li>
-                            <li><a href="#" class="showroom-link">Lubricants</a></li>
-                            <li><a href="#" class="showroom-link">Greases</a></li>
-                            <li><a href="#" class="showroom-link">Marine Paint</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Accessories</a>
-                        <ul>
-                            <li><a href="#" class="showroom-link">Helmets</a></li>
-                            <li><a href="#" class="showroom-link">Apparel</a></li>
-                            <li><a href="#" class="showroom-link">Gear</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <div class="col-lg-4 col-sm-12 p-2 align-self-center text-center">
-            <img src="img/thumbnails/yamaha-logo.png" class="img-fluid" id="showroom-price" alt="Yamaha Logo">
-        </div>
-        <div class="col-lg-5 col-sm-12 p-2 align-self-center text-center">
-            <img src="img/thumbnails/yamaha-logo1.png" class="img-fluid" id="showroom-image" alt="Showroom Image">
+                            </ul>
+                        </li>
+                        <li><a href="#">ATVs</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">Grizzly</a></li>
+                                <li><a href="#" class="showroom-link">Kodiak 700</a></li>
+                                <li><a href="#" class="showroom-link">Kodiak 450</a></li>
+                                <li><a href="#" class="showroom-link">Raptor 700/90</a></li>
+                                <li><a href="#" class="showroom-link">YFZ450R/YFZ50</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Side-by-Side</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">YXZ1000R</a></li>
+                                <li><a href="#" class="showroom-link">Wolverine X4</a></li>
+                                <li><a href="#" class="showroom-link">Wolverine X2</a></li>
+                                <li><a href="#" class="showroom-link">Viking EPS</a></li>
+                                <li><a href="#" class="showroom-link">Viking</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Outboard Engines</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">Four Stroke</a></li>
+                                <li><a href="#" class="showroom-link">Two Stroke</a></li>
+                                <li><a href="#" class="showroom-link">Enduro</a></li>
+                                <li><a href="#" class="showroom-link">VMAX</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Wave Runners</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">FX SHO CR</a></li>
+                                <li><a href="#" class="showroom-link">GP1800RSVHO</a></li>
+                                <li><a href="#" class="showroom-link">VX Cruiser</a></li>
+                                <li><a href="#" class="showroom-link">EXR</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="showroom-link">Watercraft Trailers</a></li>
+                        <li><a href="#" class="showroom-link">Boat Trailers</a></li>
+                        <li><a href="#">Yamalube</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">Lube Oils</a></li>
+                                <li><a href="#" class="showroom-link">Lube Kits</a></li>
+                                <li><a href="#" class="showroom-link">Additives</a></li>
+                                <li><a href="#" class="showroom-link">Inhibitors</a></li>
+                                <li><a href="#" class="showroom-link">Lubricants</a></li>
+                                <li><a href="#" class="showroom-link">Greases</a></li>
+                                <li><a href="#" class="showroom-link">Marine Paint</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Accessories</a>
+                            <ul>
+                                <li><a href="#" class="showroom-link">Helmets</a></li>
+                                <li><a href="#" class="showroom-link">Apparel</a></li>
+                                <li><a href="#" class="showroom-link">Gear</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-4 col-sm-12  my-0 mx-0 py-0 px-0">
+                <img src="img/thumbnails/yamaha-logo.png" class="img-fluid viewport-image" id="showroom-price" alt="Yamaha Logo">
+            </div>
+            <div class="col-lg-5 col-sm-12  my-0 mx-0 py-0 px-0">
+                <img src="img/thumbnails/yamaha-logo.png" class="img-fluid viewport-image" id="showroom-image" alt="Yamaha Logo">
+            </div>
         </div>
     </div>
 
 <!-- Footer - 3 columns with left taking up 1/2 the width of the body.  Left side is logo/info right side is links-->
-<footer class="page-footer pt-2 darkblackbg border-top rounded-top lightmainbg">
+<footer class="page-footer pt-2 navbartext darkmainbg">
     <div class="row text-center text-md-left">
-        <div class="col-lg-3 col-sm-12 align-self-center">
-            <img src="img/logos/blackred-rev.png" 
-            class="img-fluid lightmainbg"
+        <div class="col-lg-3 col-sm-12 align-self-center pb-2">
+            <img src="img/logos/Logo-Yamaha.png" 
+            class="img-fluid lightmainbg nav-img"
             alt="Yamaha logo">
         </div>
         <div class="col-lg-3 col-sm-12 align-self-center text-center">
@@ -262,12 +286,12 @@
             <p>Hagatna, Guam 96910</p>
             <p>(671) 477-1776</p>
         </div>
-        <div class="col-lg-3 col-sm-12 text-center">
+        <div class="col-lg-3 col-sm-12 text-center pt-3">
                 <a href="https://www.yamahamotorsports.com/">Yamaha Motors</a>
                 <hr>
                 <a href="https://global.yamaha-motor.com/business/">Yamaha Global</a>
         </div>
-        <div class="col-lg-3 col-sm-12 text-center">
+        <div class="col-lg-3 col-sm-12 text-center pt-3">
                 <p>Development  |  <a href="https://godfreyglobal.tech">Godfrey Global Solutions</a></p>
                 <hr>
                 <p>Design  |  <a href="#">Brian Stenger</a></p>

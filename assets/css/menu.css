@@ -53,7 +53,7 @@
 /* root */
 .nav-menu a {
   padding: 0 10px;
-  color: #000000;
+  color: #F1FAEE;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -67,7 +67,6 @@
 
 /* root: hover/persistence */
 .nav-menu a:hover,.nav-menu a:focus,.nav-menu li:hover a {
-  background: #555;
   color: #FFF;
 }
 
